@@ -1,12 +1,13 @@
-# GoatSwitch.Net
+# GoatSwitch AI
 
-VSCode Extension for GoatSwitch.Net
+VSCode Extension for GoatSwitch AI
 
 ## Features
 
 At the moment the extension supports the following language pairs:
 
-- .Net Framework -> .Net 7
+- .Net Framework -> .Net 8
+- MS Access forms -> Angular
 
 
 ## Installation
@@ -16,7 +17,7 @@ GoatSwitchVSC can be installed using the Visual Studio Code Extension Marketplac
 After installation you should see the GoatSwitch logo in your VSCode activity bar in the left.
 
 Finally you are prompted to log into your microsoft account, once you did that you can start using goatswitch.
-NOTE: Make sure to use the microsoft account you used to buy GoatSwitch.Net.
+NOTE: Make sure to use the microsoft account you used to buy GoatSwitch AI.
 
 
 ## Usage
