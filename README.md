@@ -47,7 +47,7 @@ A nicer version of the documentation is available at [GoatSwitch AI Chat Docs](h
 3. **Describe Task**: Specify tasks such as "Upgrade to .NET 8" or "Refactor legacy code patterns" and press "Enter".
 4. **Review AI Plan**: After generating a task plan, you can:
    - **Approve**: Confirm the AI plan, and watch real-time changes in the Git diff view.
-   - **Decline and Revise**: Adjust the task description if the AI's plan doesn’t meet your needs and click "Decline".
+   - **Decline and Revise**: Adjust the task description if the AI's plan doesn’t meet your needs and press "Enter".
 5. **Review Changes**: After all steps are done, review the changes in the Git extension, commit or discard them and start a new task.
 
 ---
