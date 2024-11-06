@@ -1,44 +1,96 @@
-# GoatSwitch AI
+# GoatSwitch AI Chat VS Code Extension
 
-VSCode Extension for GoatSwitch AI
+GoatSwitch AI is a transformative tool for modernizing codebases using AI, simplifying complex upgrades for developers. This extension provides an interactive, chat-based experience for modernizing .NET and Java projects, with real-time Git diffs and safe execution.
 
-## Features
+A nicer version of the documentation is available at [GoatSwitch AI Chat Docs](https://docs.goatswitch.ai).
 
-At the moment the extension supports the following language pairs:
+---
 
-- .Net Framework -> .Net 8
-- MS Access forms -> Angular
+## Key Features
 
+- **AI-Powered Analysis**: Scans codebases to suggest modernization opportunities.
+- **Interactive Modernization**: Chat interface to specify and refine tasks.
+- **Live Updates**: Real-time Git diff view for tracking changes.
+- **Safe Execution**: Git-tracked modifications for easy review and rollback.
+
+---
+
+## Requirements
+
+### .NET Projects
+
+- Git repository
+- .csproj file
+- Up to 10,000 LoC (free version)
+
+### Java Projects
+
+- Git repository
+- pom.xml or build.gradle
+- Up to 10,000 LoC (free version)
+
+---
 
 ## Installation
 
-GoatSwitchVSC can be installed using the Visual Studio Code Extension Marketplace.
+1. Search "GoatSwitch AI Chat" in the VSCode Extensions Marketplace and click "Install."
+2. Verify the GoatSwitch icon appears in the activity bar.
 
-After installation you should see the GoatSwitch logo in your VSCode activity bar in the left.
+![GoatSwitch Installed](media/gs_installed.png)
 
-Finally you are prompted to log into your microsoft account, once you did that you can start using goatswitch.
-NOTE: Make sure to use the microsoft account you used to buy GoatSwitch AI.
-
+---
 
 ## Usage
 
-### Starting the migration workflow
-GoatSwitch can convert .Net projects defined by a .csproj file. If you want to migrate a .Net Framework project, there are two way to start the process.
-1. Using the GoatSwitch view in the activity bar on the left. Click the "Pick a .csproj file"-button to start the migration workflow.
-![GSActBarView](media/gsvsc_activitybar_view.png)
-2. Right clicking a .csproj in the file epxlorer. Right click and select "GoatSwitch convert .Net project" to start.
-![GSRightCLick](media/gsvsc_csproj_rightclick.png)
-### Fixing failed tests
-Coming Soon!
-### Fixing failed translations
-Coming Soon!
+1. **Open Folder**: Ensure there are no pending changes in the Git repository.
+2. **Select Project**: Click the GoatSwitch icon in VSCode to begin.
+3. **Describe Task**: Specify tasks such as "Upgrade to .NET 8" or "Refactor legacy code patterns" and press "Enter".
+4. **Review AI Plan**: After generating a task plan, you can:
+   - **Approve**: Confirm the AI plan, and watch real-time changes in the Git diff view.
+   - **Decline and Revise**: Adjust the task description if the AI's plan doesn’t meet your needs and click "Decline".
+5. **Review Changes**: After all steps are done, review the changes in the Git extension, commit or discard them and start a new task.
 
+---
 
-## FAQ
-- I cannot sign into my microsoft account (AADSTS700016)
-  - This happens when using WSL with VSCode. Trying again without connection vscode to wsl should fix the issue
-- How to reach you?
-  - Email us anytime at hello@goatswitch.ai
+## Common Tasks
 
+### .NET
 
+- Upgrade to .NET 8
+- Refactor legacy patterns
+- Remove deprecated APIs
+- Switch to Entity Framework Core
 
+### Java
+
+- Update to Java 21
+- Refactor legacy patterns
+- Remove deprecated APIs
+- Switch to Hibernate
+
+---
+
+## Troubleshooting
+
+### Project Detection Issues
+
+- Ensure project size < 10,000 LoC.
+- Check for .csproj/pom.xml/build.gradle file.
+- Verify repository is initialized and clean.
+
+### Runtime Issues
+
+- Reload VSCode window or restart VSCode if chat becomes unresponsive.
+- If AI generates unexpected changes, use the VSCode Git extension to review and revert modifications.
+
+### Platform Limitations
+
+- Works on Windows, macOS, and Linux.
+- Unsupported on VSCode Web.
+
+---
+
+## Support
+
+For bugs or feature requests, visit [GitHub Issues](https://github.com/GoatSwitch/web-docs).  
+Email support available at hello@goatswitch.ai.
