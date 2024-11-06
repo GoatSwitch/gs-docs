@@ -94,3 +94,7 @@ A nicer version of the documentation is available at [GoatSwitch AI Chat Docs](h
 
 For bugs or feature requests, visit [GitHub Issues](https://github.com/GoatSwitch/web-docs).  
 Email support available at hello@goatswitch.ai.
+
+## Acknowledgments
+
+This extension includes code from [Cline Bot Inc.](https://github.com/cline/cline), licensed under the Apache License, Version 2.0. A copy of the license is available in the NOTICE file.
